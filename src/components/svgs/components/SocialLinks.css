@@ -1,0 +1,51 @@
+.social {
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: inline-flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    height: 45px;
+    margin: 5px;
+    padding-left: 10px;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 5px 5px 10px;
+    background-position:center center;
+}
+
+img {
+    background-position:center center;
+    vertical-align:middle;
+    width: 24px;
+    height: 24px;
+}
+
+span {
+    margin: 15px;
+    color: white;
+}
+
+div .copy::after{
+    content: "Clcik To Copy!";
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -95px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    color: white;
+    opacity: 0;
+    padding: 10px;
+    pointer-events: none;
+}
+
+div .copy:hover:after {
+    opacity: 0.8;
+    transition: all 0.3s ease-out;
+}

@@ -1,0 +1,27 @@
+.home h1{
+    background-image: linear-gradient(
+        -45deg,
+        #eba448 0%,
+        #c46548 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+    font-size: 7vw;
+    text-align: center;
+    cursor: default;
+    transition: 0.4s;
+    vertical-align:middle;
+}
+
+.home h1:hover {
+  transform: scale(1.1, 1.1);
+}
