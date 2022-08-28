@@ -19,6 +19,10 @@
     background-position:center center;
 }
 
+.social:hover{
+    transform: scale(1.05, 1.05);
+}
+
 img {
     background-position:center center;
     vertical-align:middle;
