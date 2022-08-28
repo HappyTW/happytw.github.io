@@ -17,6 +17,7 @@
     user-select: none;
     box-shadow: 5px 5px 10px;
     background-position:center center;
+    transition: 0.4s;
 }
 
 .social:hover{
